@@ -1,0 +1,22 @@
+<%- include("partials/header.ejs") %>
+
+    <main>
+        <div class="card-list">
+            <% if(locals.content){ %>
+                <% content.forEach((anime)=>{ %>
+                    <a href="<%= anime.url %>" target="_blank">
+                        <div class="card">
+                            <img class="anime-content" src="<%= anime.images.jpg.image_url %>" alt="poster" />
+                            <h2 class="anime-header">
+                                <%= anime.title %>
+                            </h2>
+                        </div>
+                    </a>
+                    <% });} else {%>
+                        <h2 style="color:white;">Anime bulunamadı veya API hatası.</h2>
+                        <% }%>
+        </div>
+
+    </main>
+
+    <%- include("partials/footer.ejs") %>

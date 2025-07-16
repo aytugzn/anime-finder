@@ -7,7 +7,7 @@ Kullanıcılar bir anime ismi yazarak o animeye ait poster ve başlığa ulaşab
 
 ## 🚀 Canlı Demo
 
-[🔗 Link](https://aytugzn.github.io/anime-finder/)
+[🔗 Link](https://anime-finder-5wfg.onrender.com/)
 
 ---
 
